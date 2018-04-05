@@ -14,7 +14,10 @@ namespace attempt_1.Models
         public String City { get; set; }
         public String State { get; set; }
         public String Country { get; set; }
-        
-        
+
+        public static String URL = "http://jobs.mapsted.com/";
+        public static String urlParameters = "api/Values/GetBuildingData";
+
+        //public Building(String id, String) { }
     }
 }
